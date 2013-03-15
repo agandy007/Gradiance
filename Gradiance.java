@@ -27,7 +27,7 @@ public class Gradiance {
 		String id = "404";
 		String name = "Ogan";
 		Gradiance.professor = new Professor(id, name);
-		Gradiance.getFirstMenu(); 
+		Gradiance.getProfessorMenu(); 
 		
 	}
 	
@@ -37,7 +37,7 @@ public class Gradiance {
 		//Class.forName("DataAccess");
 	}
 	
-	public static void getFirstMenu() throws IOException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException
+	public static void getProfessorMenu() throws IOException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException
 	{
 		System.out.println("1.Select Course \n2.Add Course \n3.Back");
 		Gradiance.userInput = Gradiance.br.readLine();
