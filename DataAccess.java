@@ -15,7 +15,7 @@ public class DataAccess {
 	
 	private final String jdbcURL = "jdbc:mysql://localhost/test";
 	private String user = "apurva";	// For example, "jsmith"
-	private String passwd = "me@gemini268";	// Your 9 digit student ID number
+	private String passwd = "123456789";	// Your 9 digit student ID number
 	
 	private static DataAccess instance = null;
 	
